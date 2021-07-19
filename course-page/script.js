@@ -6,7 +6,7 @@ var course = /** @class */ (function () {
         this.url = url;
     }
     course.prototype.display = function () {
-        return "\n    <div class=\"col col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center\">\n    <div class=\"card\" style=\"width: 18rem; height: 25rem;\">\n    <img src=\"" + this.img + " \" class=\"card-img-top\" alt=\"courses\" style=\"width: 18rem; height: 15rem\">\n    <div class=\"card-body\">\n      <h5 class=\"card-title d-flex justify-content-center\">" + this.name + " </h5>\n      <p class=\"card-text d-flex justify-content-center\">" + this.price + " \u20AC</p>\n      <a href=\"\" class=\"btn btn-primary d-flex justify-content-center\">Register</a>\n    </div>\n  </div>\n  </div>\n  ";
+        return "\n    <div class=\"col col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center\">\n    <div class=\"card\" style=\"width: 18rem; height: 25rem;\">\n    <img src=\"" + this.img + " \" class=\"card-img-top\" alt=\"courses\" style=\"width: 18rem; height: 15rem\">\n    <div class=\"card-body\">\n      <h5 class=\"card-title d-flex justify-content-center\">" + this.name + " </h5>\n      <p class=\"card-text d-flex justify-content-center\">" + this.price + " \u20AC</p>\n      <a href=\"" + this.url + " \" class=\"btn btn-primary d-flex justify-content-center\">Register</a>\n    </div>\n  </div>\n  </div>\n  ";
     };
     return course;
 }());

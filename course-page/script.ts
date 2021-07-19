@@ -10,7 +10,7 @@ class course{
     <div class="card-body">
       <h5 class="card-title d-flex justify-content-center">${this.name} </h5>
       <p class="card-text d-flex justify-content-center">${this.price} €</p>
-      <a href="" class="btn btn-primary d-flex justify-content-center">Register</a>
+      <a href="${this.url} " class="btn btn-primary d-flex justify-content-center">Register</a>
     </div>
   </div>
   </div>
