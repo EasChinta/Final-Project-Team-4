@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  background: #d8e2dc;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d8e2dc), to(#ffd7ba));
+  background: linear-gradient(180deg, #d8e2dc 0%, #ffd7ba 100%);
+}
+
+header {
+  height: 10vh;
+  background-color: #d8e2dc5a;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.myContainer {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.three h1 {
+  text-align: center;
+}
+
+.mybtn {
+  background: #d8e2dc;
+  background: -webkit-gradient(linear, left top, right top, from(#d8e2dc), to(#ffd7ba));
+  background: linear-gradient(90deg, #d8e2dc 0%, #ffd7ba 100%);
+}
+/*# sourceMappingURL=styles.css.map */
