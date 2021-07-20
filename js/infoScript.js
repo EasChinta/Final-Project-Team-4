@@ -135,6 +135,7 @@ txt4 += "</div>";
 
 document.getElementById("pageFour").innerHTML = txt4;
 
+//Pricing Plan
 
 var prices = [
   {
