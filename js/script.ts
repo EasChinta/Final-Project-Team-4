@@ -7,10 +7,10 @@ class course{
     <div class="col col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
     <div class="card" style="width: 18rem; height: 25rem;">
     <img src="${this.img} " class="card-img-top" alt="courses" style="width: 18rem; height: 15rem">
-    <div class="card-body">
+    <div class="card-body ">
       <h5 class="card-title d-flex justify-content-center">${this.name} </h5>
       <p class="card-text d-flex justify-content-center">${this.price} €</p>
-      <a href="${this.url} " class="btn btn-primary d-flex justify-content-center">Register</a>
+      <a href="${this.url} " class="btn mybtn btn-outline-success d-flex justify-content-center ">Register</a>
     </div>
   </div>
   </div>
