@@ -20,16 +20,7 @@
     <title>Document</title>
 
   </head>
-  <body>
-
-
-    
-
-
-
-        <!-- section one -->
-      <section class="one">
-        <header>
+          <header>
           <h1>The logo image on the left</h1>
           <!-- Here the header and below the navbar the navbar should be fixed on top and when we scroll down we should still be able to see it. I have added a height and opacity of the colour so we can still see the background behind the header when we scroll.-->
          
@@ -61,112 +52,120 @@
               </nav>
           
         </header>
-
-        <div class="container d-flex justify-content-between">
-          <div class="row">
-            <div class="card bg-transparent" style="width: 18rem">
-              <img src="https://cdn.pixabay.com/photo/2013/09/22/19/14/brick-wall-185085__340.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                C
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-outline-success mybtn"
-                  >Get started</a
-                >
-              </div>
-            </div>
-            
-        </div>
-      </section>
-
-
-
-
-      <!-- section two -->
-      <section class="two">
-        <h1>second page</h1>
-        <div class="card bg-transparent">
-            <div class="card-body">
-              <h1>
-                In here we add some context/text like: "what is coding? why learn it?", whatever we can find similar to this on the CF website
-              </h1>
-            </div>
-        </div>
-          <!-- Can you maybe make it that on the second card below, the image is on the right side of the card? -->
-        <div class="container row" id="pageTwo"></div>
-      </section>
-
-
-
-      <!-- section three -->
-      <section class="three">
-        <h1>third page</h1>
-        <div class="container">
-        <h1>Why Web Developing?</h1>
-        <div class="container" id="pageThree">
-          </div>
-        </div>
-      </section>
-
-
-
-
-      <!-- section four -->
-      <section class="four">
-        <h1>fourth page</h1>
-        <h1>Choose one of our new courses</h1>
-        <div class="container">
-            <div id="pageFour"></div>
-        </div>
-      </section>
-
-    
-
-
-
-          <!-- Here footer and bottom navbar -->
-    </div>
-
-    <footer class="bg-light py-5 mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-6 col-md-3">
-                    <h3>CodeFactory</h3>
-                    <small class="d-block text-muted">© 2021</small>
-                    <small class="text-muted">All Rights Reserved.</small>
+  <body>
+    <header>
+        <h1>The logo image on the left</h1>
+        <!-- Here the header and below the navbar the navbar should be fixed on top and when we scroll down we should still be able to see it. I have added a height and opacity of the colour so we can still see the background behind the header when we scroll.-->
+       
+          <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+              <div class="container">
+                <a class="navbar-brand">
+                  <h3 class="mb-0">
+                      <img src=""></img>
+                  </h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                      <a class="nav-link p-2 font-weight-bold" href="">Home </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link p-2 font-weight-bold" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link font-weight-bold p-2" href="">Home</a>
+                    </li>
+                  </ul>  
                 </div>
-                <div class="col-6 col-md-9">
-                    
+              </div>
+            </nav>
+        
+        </header>
+        <div id="main">
+            <div id="info">
+                <!-- info to the webside -->
+            </div>
+            <div id="courses">
+                <!-- here the card -->
+            </div>
+            <div id="teachers">
+                <!-- here the teachers are presented -->
+            </div>
+            <div id="news">
+                <!-- here the news -->
+                <!-- <div class="container blogContent">
                     <div class="row">
-                        <div class="col-6 col-lg-3">
-                             <h5>Pages</h5>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="" class="text-muted">Home</a>
-                                </li>
-                                <li>
-                                    <a href="" class="text-muted">Home</a>
-                                </li>
-                                <li>
-                                    <a href="" class="text-muted">Home</a>
-                                </li>
-                            </ul>
+                      <div class="col-8 offset-2">
+                        <div class="blogItem">
+                          <h4>The best travel website ever</h4>
+                          <p class="description">5/5</p>
+                          <p>Author: John Michael</p>
+                          <p class="createdAt">Created at: 20:20 12.07.2021</p>
+                        </div>
+                      </div>
+                      <div class="col-8 offset-2">
+                        <div class="blogItem">
+                          <h4>Very bad </h4>
+                          <p class="description">1/5</p>
+                          <p>Author: Mike Pearson</p>
+                          <p class="createdAt">Created at: 20:20 12.07.2021</p>
+                        </div>
+                      </div>
+                      <div class="col-8 offset-2">
+                        <div class="blogItem">
+                          <h4>Good but overpriced</h4>
+                          <p class="description">3/5</p>
+                          <p>Author: Lara Del Ray</p>
+                          <p class="createdAt">Created at: 20:20 12.07.2021</p>
+                        </div>
+                      </div>
+                    </div>
+                </div> -->
+            </div>
+            <div id="vidTest">
+                <!-- videos & testimonials -->
+            </div>
+        </div>
+        <footer class="bg-light py-5 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <h3>CodeFactory</h3>
+                        <small class="d-block text-muted">© 2021</small>
+                        <small class="text-muted">All Rights Reserved.</small>
+                    </div>
+                    <div class="col-6 col-md-9">
+                        
+                        <div class="row">
+                            <div class="col-6 col-lg-3">
+                                 <h5>Pages</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="" class="text-muted">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="text-muted">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="text-muted">Home</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+        </script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-
-    <script src="/js/infoScript.js"></script>
-  </body>
+        <script src="/js/infoScript.js"></script>
+    </body>
 </html>
