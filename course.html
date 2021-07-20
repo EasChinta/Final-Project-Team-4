@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./scss/styles.css">
+    <link rel="stylesheet" href="/scss/styles.css">
     <title>Document</title>
     
 </head>
@@ -14,6 +14,7 @@
     <header class="d-flex justify-content-between">
         <div>
           <img
+          class="mx-3 my-3"
             src="/img/cropped-CodeFactory-LOGO-September-2020.png"
             alt=""
             style="width: 300px; height: 100px"
@@ -21,7 +22,66 @@
         </div>
 
         <div>
-          <nav>
+          <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #DBE1DA;">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/course.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Our Courses
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="">👨‍💻 Full Stack Web Developer</a></li>
+                        <li><a class="dropdown-item" href="">👩‍💻 Frontend Developer</a></li>
+                        <li><a class="dropdown-item" href="">👨‍💻 Backend Developer</a></li><li><a class="dropdown-item" href="#">👩‍💻 Automated Software Tester</a></li><li><a class="dropdown-item" href="#">👨‍💻 Basic Course HTML/CSS</a></li><li><a class="dropdown-item" href="#">👩‍💻 Basic Course JavaScript</a></li><li><a class="dropdown-item" href="#">👨‍💻 Python Programming</a></li><li><hr></li>
+                      <li><a class="dropdown-item" href="/course.html">See All Courses</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      For Companies
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Career_Net</a></li>
+                      <li><a class="dropdown-item" href="#">Custom Courses: Code_Academy</a></li>
+                      <li></li>
+                      <li><a class="dropdown-item" href="#">Brand Ambassador</a></li>
+                      <li><a class="dropdown-item" href="#">Seminar / Lecture Rooms</a></li>
+                      <li><a class="dropdown-item" href="#">Featured Alumni Projects</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      For Students
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Frequently Asked Questions (FAQ)</a></li>
+                      <li><a class="dropdown-item" href="#">Payment and Financing Options</a></li>
+                      <li></li>
+                      <li><a class="dropdown-item" href="#">C.A.N CodeFactory Alumni Network</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/aboutus.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About us
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="/aboutus.html">Team</a></li>
+                      <li><a class="dropdown-item" href="/news.html">NEWS</a></li>
+                      <li>
+                    </ul>
+                  </li>
+              </div>
+            </div>
+          </nav>
+          <!-- <nav>
             <ul class="nav mx-2">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/index.html"
@@ -44,7 +104,7 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-          </nav>
+          </nav> -->
         </div>
       </header>
 
