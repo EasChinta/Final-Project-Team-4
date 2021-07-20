@@ -10,13 +10,13 @@ var course = /** @class */ (function () {
     };
     return course;
 }());
-var frontend = new course("Frontend Development", 2990, "./img.courses/frontend2.jpg", "https://codefactory.wien/de/registration-frontend-developer-de/");
-var fullstack = new course("Full Stack Web Developer", 4490, "./img.courses/fullstack.jpeg", "https://codefactory.wien/de/registration-full-stack-web-developer-de/");
-var backend = new course("Backend Development", 2990, "./img.courses/backend2.jpeg", "https://codefactory.wien/de/registration-backend-developer-de/");
-var tester = new course("Automated Software Tester", 4490, "./img.courses/testing.png", "https://codefactory.wien/de/anmeldung-software-testing-course-de/");
-var js = new course("Basic JavaScript Course", 290, "./img.courses/js2.jpg", "https://codefactory.wien/de/registration-basiskurs-javascript-de/");
-var basic = new course("Basic HTML/CSS Course", 290, "./img.courses/html-css.jpg", "https://codefactory.wien/de/registration-basiskurs-html-css-de/");
-var python = new course("Python Programming", 450, "./img.courses/python.jpg", "https://codefactory.wien/de/registration-python-programming-de/");
+var frontend = new course("Frontend Development", 2990, "./img/frontend2.jpg", "https://codefactory.wien/de/registration-frontend-developer-de/");
+var fullstack = new course("Full Stack Web Developer", 4490, "./img/fullstack.jpeg", "https://codefactory.wien/de/registration-full-stack-web-developer-de/");
+var backend = new course("Backend Development", 2990, "./img/backend2.jpeg", "https://codefactory.wien/de/registration-backend-developer-de/");
+var tester = new course("Automated Software Tester", 4490, "./img/testing.png", "https://codefactory.wien/de/anmeldung-software-testing-course-de/");
+var js = new course("Basic JavaScript Course", 290, "./img/js2.jpg", "https://codefactory.wien/de/registration-basiskurs-javascript-de/");
+var basic = new course("Basic HTML/CSS Course", 290, "./img/html-css.jpg", "https://codefactory.wien/de/registration-basiskurs-html-css-de/");
+var python = new course("Python Programming", 450, "./img/python.jpg", "https://codefactory.wien/de/registration-python-programming-de/");
 var arr = [frontend, fullstack, backend, tester, js, basic, python];
 for (var _i = 0, arr_1 = arr; _i < arr_1.length; _i++) {
     var val = arr_1[_i];

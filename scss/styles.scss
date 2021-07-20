@@ -12,6 +12,11 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // position: absolute;
+    width: 100%;
     height: 10vh;
     background-color: #d8e2dc5a;
 }
@@ -19,35 +24,71 @@ header {
 
 
 section {
-    height: 100vh;
+    min-height: 100vh;
 
     scroll-snap-align: start;
 }
 
 .myContainer {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     overflow-y: scroll;
     height: 100vh;
 }
 
 
 
-.one {
+.one h1 {
 
 }
-.two {
-  
+.two h1 {
+
 }
 
 .three h1 {
     text-align: center;
 }
 
-.four {
+.four h1 {
 
+}
+
+.five h1 {
+    text-align: center;
 }
 
 .mybtn {
     background: rgb(216,226,220);
-background: linear-gradient(90deg, rgba(216,226,220,1) 0%, rgba(255,215,186,1) 100%);
+    background: linear-gradient(90deg, rgba(216,226,220,1) 0%, rgba(255,215,186,1) 100%);
 }
+
+a { 
+    color: inherit !important; 
+} 
+
+
+footer {
+   
+}
+
+
+.demo {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textBetweenMap {
+    text-align: center;
+}
+
+
+
+// //Map// 
+// #map {
+//     z-index: 1;
+//     height: 400px;
+//     /* The height is 400 pixels */
+//     width: 100%;
+//     /* The width is the width of the web page */
+//   }

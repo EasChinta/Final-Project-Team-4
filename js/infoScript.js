@@ -2,16 +2,14 @@
 
 var secondPageCards = [
   {
-    title: "Title",
-    cardText: "blablablablablabla",
-    lastUpdated: "some minutes ago",
-    image: "https://cdn.pixabay.com/photo/2013/09/22/19/14/brick-wall-185085__340.jpg"
+    title: "Education <br> Python",
+    cardText: "Learn to think like an IT specialist an essential skill in our modern digital world using the popular Python programming language.",
+    image: "./img/python.jpg"
   },
   {
-    title: "Title",
-    cardText: "hi hihihihihi",
-    lastUpdated: "5 minutes ago",
-    image: "https://cdn.pixabay.com/photo/2013/09/22/19/14/brick-wall-185085__340.jpg"
+    title: "Education <br> Automated software testing",
+    cardText: "The CodeFactory Automated Software Tester course prepares you for your future job as a junior software tester, using state of the art tools to test the quality of software in an automated and efficient way.",
+    image: "./img/testing.png"
   },
 ];
 
@@ -22,14 +20,13 @@ txt += `<div class="row">`;
 for (let val of secondPageCards) {
   txt += `
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-lg-3 col-md-6 col-sm-12 my-3 mb-3">
                 <img src="${val.image}" class="img-fluid rounded-start" alt="...">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">${val.title}</h5>
                   <p class="card-text">${val.cardText}</p>
-                  <p class="card-text"><small class="text-muted">${val.lastUpdated}</small></p>
                   <a href="#" class="btn btn-outline-success mybtn"
                   >Read more</a
                 >
@@ -53,16 +50,16 @@ document.getElementById("pageTwo").innerHTML = txt;
 
 var thirdPageCards = [
   {
-    title: "Title",
-    cardText: "change text here",
+    title: "In 15 weeks to junior developer level",
+    cardText: "Learn everything you need about Frontend and Backend development in just 15 weeks to get your new career started. Work hands-on and with practical examples from the first day!",
   },
   {
-    title: "Title",
-    cardText: "change text here",
+    title: "Hands-on learning",
+    cardText: "The relatively short duration of just 15 weeks is made possible by a maximum of practical work. We believe that programming can only be learned through the act, which is why we program from day one in teams of two or larger group, solving practical problems.",
   },
   {
-    title: "Title",
-    cardText: "change text here"
+    title: "Gain experience in real world projects",
+    cardText: "Many of our graduate projects are issued by real clients, ranging from NGOs to medium-sized companies. The start of your new career gets a huge boost with those references in your portfolio!"
   },
 ];
 
@@ -71,11 +68,13 @@ txt3 += '<div class="row">';
 
 for (let val of thirdPageCards) {
     txt3 += `
+    <div class="col-lg-3 col-md-6 col-sm-12 my-3 mb-3 ">
     <div class="card bg-transparent border-success mb-3" style="max-width: 18rem;">
     <div class="card-header">${val.title}</div>
     <div class="card-body text-success">
       <h5 class="card-title">${val.cardText}</p>
     </div>
+  </div>
   </div>
             `;
 }
@@ -92,22 +91,22 @@ document.getElementById("pageThree").innerHTML = txt3;
 
 var fourthPageCards = [
     {
-      title: "Title",
-      cardText: "change text here",
-      price: 4500,
-       image: "https://cdn.pixabay.com/photo/2013/09/22/19/14/brick-wall-185085__340.jpg"
+      title: "Martha",
+      cardText: "Trainer",
+      age: 29,
+       image: "./img/avatar2.png"
     },
     {
-      title: "Title",
-      cardText: "change text here",
-      price: 4500,
-       image: "https://cdn.pixabay.com/photo/2013/09/22/19/14/brick-wall-185085__340.jpg"
+      title: "Nick",
+      cardText: "Trainer",
+      age: 31,
+       image: "./img/avatar.png"
     },
     {
-      title: "Title",
-      cardText: "change text here",
-      price: 4500,
-       image: "https://cdn.pixabay.com/photo/2013/09/22/19/14/brick-wall-185085__340.jpg"
+      title: "Anna",
+      cardText: "Trainer",
+      age: 34,
+       image: "./img/avatar3.png"
     },
   ];
 
@@ -120,13 +119,15 @@ var fourthPageCards = [
     txt4 += 
 
   `
-  <div class="card bg-transparent" style="width: 18rem;">
+  <div class="col-lg-3 col-md-6 col-sm-12 my-3 mb-3">
+  <div class="card bg-transparent border-0" style="width: 18rem;">
   <img src="${val.image}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">${val.title}</h5>
-    <p class="card-text">${val.cardText} <br> ${val.price}</p>
-    <a href="#" class="btn btn-outline-success mybtn ">Select</a>
+    <p class="card-text">${val.cardText} <br> ${val.age}</p>
+    <a href="#" class="btn btn-outline-success mybtn ">Read More</a>
   </div>
+</div>
 </div>
   `
 }
@@ -134,6 +135,7 @@ var fourthPageCards = [
 txt4 += "</div>";
 
 document.getElementById("pageFour").innerHTML = txt4;
+
 
 //Pricing Plan
 
@@ -198,3 +200,36 @@ for(let val of prices){
   `
 }
 document.getElementById("pricing").innerHTML = pricing;
+
+
+
+
+
+
+
+
+
+
+
+
+// if ('scrollRestoration' in history) {
+//   history.scrollRestoration = 'manual';
+// }
+
+
+// //Map// 
+
+// function initMap() {
+//   // The location of CF
+//   const CF = { lat: -25.344, lng: 131.036 };
+//   // The map, centered at CF
+//   const map = new google.maps.Map(document.getElementById("map"), {
+//     zoom: 4,
+//     center: CF,
+//   });
+//   // The marker, positioned at CF
+//   const marker = new google.maps.Marker({
+//     position: CF,
+//     map: map,
+//   });
+// }

@@ -13,12 +13,23 @@ body {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
   height: 10vh;
   background-color: #d8e2dc5a;
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   scroll-snap-align: start;
 }
 
@@ -33,9 +44,35 @@ section {
   text-align: center;
 }
 
+.five h1 {
+  text-align: center;
+}
+
 .mybtn {
   background: #d8e2dc;
   background: -webkit-gradient(linear, left top, right top, from(#d8e2dc), to(#ffd7ba));
   background: linear-gradient(90deg, #d8e2dc 0%, #ffd7ba 100%);
+}
+
+a {
+  color: inherit !important;
+}
+
+.demo {
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.textBetweenMap {
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

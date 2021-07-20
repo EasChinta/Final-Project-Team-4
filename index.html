@@ -12,148 +12,335 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/scss/styles.css"/>
+    <link rel="stylesheet" href="/scss/styles.css" />
     <title>Document</title>
-
   </head>
   <body>
-
-
     <div class="myContainer">
 
-
-
-        <!-- Page one -->
+      <!-- Page one -->
       <section class="one">
         <header>
-          <h1>The logo image on the left</h1>
-          <!-- Here the header and below the navbar the navbar should be fixed on top and when we scroll down we should still be able to see it. I have added a height and opacity of the colour so we can still see the background behind the header when we scroll.-->
-          <nav><ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </nav>
-        </ul>
+          <div>
+            <img
+              src="/img/cropped-CodeFactory-LOGO-September-2020.png"
+              alt=""
+              style="width: 300px; height: 100px"
+            />
+          </div>
+
+          <div>
+            <nav>
+              <ul class="nav mx-2">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/course.html">Our Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">For Companies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">For Students</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </header>
 
-        <div class="container d-flex justify-content-between my-3">
+        <div class="container d-flex align-items-center my-3">
           <div class="row">
-            <div class="card bg-transparent" style="width: 18rem">
-              <img src="https://cdn.pixabay.com/photo/2013/09/22/19/14/brick-wall-185085__340.jpg" class="card-img-top" alt="..." />
+            <div
+              class="card bg-transparent border-0"
+              style="width: 18rem; margin-top: 15vh"
+            >
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                C
+                <h1 class="card-title">Become a job ready Web Developer</h1>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Learn everything you need about Frontend and Backend development in just 15 weeks to get your new career started. Work hands-on and with practical examples from the first day!
                 </p>
                 <a href="#" class="btn btn-outline-success mybtn"
                   >Get started</a
                 >
               </div>
             </div>
-            
+          </div>
+          <div>
+            <img src="/img/coder.jpeg" class="img-fluid" alt="coderImage" style="width: 800px;">
+          </div>
         </div>
       </section>
-
-
-
 
       <!-- Page two -->
       <div class="container">
-      <section class="two">
-        <h1>second page</h1>
-        <div class="card bg-transparent">
-            <div class="card-body"><h1>
-                In here we add some context/text like: "what is coding? why learn it?", whatever we can find similar to this on the CF website
-            </h1></div>
+        <section class="two">
+          <div class="card bg-transparent my-5 border-0">
+            <h1>second page</h1>
+            <div class="card-body">
+              <h1>
+                What is Coding?
+              </h1>
+              <p>
+                Coding, sometimes called computer programming, is how we communicate with computers. Code tells a computer what actions to take, and writing code is like creating a set of instructions. By learning to write code, you can tell computers what to do or how to behave in a much faster way. You can use this skill to make websites and apps, process data, and do lots of other cool things.
+              </p>
+            </div>
           </div>
           <!-- Can you maybe make it that on the second card below, the image is on the right side of the card? -->
-        <div class="container row" id="pageTwo"></div>
-      </section>
-    </div>
-
-
+          <div class="container row" id="pageTwo"></div>
+        </section>
+      </div>
 
       <!-- Page three -->
-      
+
       <section class="three">
-        <h1>third page</h1>
         <div class="container">
-        <h1>Why Web Developing?</h1>
-        <div id="pageThree">
-          </div>
+          <h1>third page</h1>
+          <h1>Why learn how to code?</h1>
+          <p>
+            We all have hopes, dreams, and plans for the future. Whether you’re looking for a new opportunity, want to optimize your current job, or are simply searching for a new hobby, coding can help you get closer to your goals. And remember, anyone can learn how to code!
+          </p>
+          <div id="pageThree"></div>
         </div>
       </section>
-    
-
-
-
 
       <!-- Page four -->
-    <div class="container">
-      <section class="four">
-        <h1>fourth page</h1>
-        <h1>Choose one of our new courses</h1>
-        <div class="container">
+      <div class="container">
+        <section class="four">
+          <h1>fourth page</h1>
+          <h1>Our Team</h1>
+          <div class="container">
             <div id="pageFour"></div>
-        </div>
-      </section>
-    </div>
+          </div>
+        </section>
+      </div>
 
+      <div class="container">
+        <section>
+          <h1>Choose one of our new courses</h1>
+          <div class="container mt-5">
+            <div class="row text-center" id="pricing"></div>
+          </div>
+        </section>
+      </div>
 
       <!-- Page five -->
-      <div class="container">
+
       <section class="five">
-        <h1>fifth page</h1>
-            <div id="pageFive"></div>
-            <footer>
-          <nav>
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Active</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </nav>
-        </footer>
+        <div id="pageFive">
+          <h1>HOW TO FIND US</h1>
+        </div>
+
+        <div class="demo">
+          <iframe
+            class="cf-googlemap-homepage"
+            width="100%"
+            height="450"
+            style="border: 0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.5278363833627!2d16.357240715990518!3d48.196448179228184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07866f5ea789%3A0x5c320007be5849de!2sKettenbr%C3%BCckengasse+23%2C+1050+Wien!5e0!3m2!1sen!2sat!4v1540194891008"
+            frameborder="0"
+            allowfullscreen="allowfullscreen"
+          ></iframe>
+          <div class="textBetweenMap">
+            <h2>
+              Headquarters: <br />
+              Kettenbrückengasse 23/2/12 Dachgeschoss<br />
+              1050 Wien
+            </h2>
+            <p>
+              Directly with the subway U4 to the station Kettenbrückengasse –<br />
+              right next to the famous Viennese Naschmarkt!
+            </p>
+          </div>
+
+          <!-- FOOTER -->
+          <footer class="d-flex flex-column-reverse">
+            <nav>
+              <ul class="nav mb-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Active</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">AGB</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">DATENSCHUTZ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">IMPRESSUM</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">LEITBILD DER CODEFACTORY GMBH</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+            <hr />
+
+            <!-- Social Media links -->
+            <div class="socialMediaIcons d-flex">
+              <a
+                class="sficn"
+                data-effect=""
+                target="_blank"
+                href="https://www.facebook.com/CodeFactoryVienna/"
+                style="opacity: 1"
+                ><img
+                  alt="Facebook"
+                  title="Facebook"
+                  src="https://codefactory.wien/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/flat/flat_fb.png"
+                  width="35"
+                  height="35"
+                  style=""
+                  class="sfcm sfsi_wicon sfsiplusid_round_icon_facebook"
+                  data-effect=""
+              /></a>
+              <div
+                style="
+                  width: 35px;
+                  height: 35px;
+                  margin-left: 7px;
+                  margin-bottom: 5px;
+                  z-index: 0;
+                "
+                class="sfsi_plus_wicons shuffeldiv"
+              >
+                <div class="sfsiplus_inerCnt" style="z-index: 999">
+                  <a
+                    class="sficn"
+                    data-effect=""
+                    target="_blank"
+                    href="https://www.instagram.com/codefactoryvienna/"
+                    style="opacity: 1"
+                    ><img
+                      alt="Instagram"
+                      title="Instagram"
+                      src="https://codefactory.wien/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/flat/flat_instagram.png"
+                      width="35"
+                      height="35"
+                      style=""
+                      class="sfcm sfsi_wicon sfsiplusid_round_icon_instagram"
+                      data-effect=""
+                  /></a>
+                </div>
+              </div>
+              <div
+                style="
+                  width: 35px;
+                  height: 35px;
+                  margin-left: 7px;
+                  margin-bottom: 5px;
+                  z-index: 1000000;
+                "
+                class="sfsi_plus_wicons shuffeldiv"
+              >
+                <div class="sfsiplus_inerCnt" style="z-index: 999">
+                  <a
+                    class="sficn"
+                    data-effect=""
+                    target="_blank"
+                    href="https://twitter.com/codefactoryvie"
+                    style="opacity: 1"
+                    ><img
+                      alt="Twitter"
+                      title="Twitter"
+                      src="https://codefactory.wien/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/flat/flat_twitter.png"
+                      width="35"
+                      height="35"
+                      style=""
+                      class="sfcm sfsi_wicon sfsiplusid_round_icon_twitter"
+                      data-effect=""
+                  /></a>
+                </div>
+              </div>
+              <div
+                style="
+                  width: 35px;
+                  height: 35px;
+                  margin-left: 7px;
+                  margin-bottom: 5px;
+                  z-index: 0;
+                "
+                class="sfsi_plus_wicons shuffeldiv"
+              >
+                <div class="sfsiplus_inerCnt" style="z-index: 999">
+                  <a
+                    class="sficn"
+                    data-effect=""
+                    target="_blank"
+                    href="https://www.youtube.com/channel/UCJE5xsfz-bLmVb5emobgOkw"
+                    style="opacity: 1"
+                    ><img
+                      alt="YouTube"
+                      title="YouTube"
+                      src="https://codefactory.wien/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/flat/flat_youtube.png"
+                      width="35"
+                      height="35"
+                      style=""
+                      class="sfcm sfsi_wicon sfsiplusid_round_icon_youtube"
+                      data-effect=""
+                  /></a>
+                </div>
+              </div>
+              <div
+                style="
+                  width: 35px;
+                  height: 35px;
+                  margin-left: 7px;
+                  margin-bottom: 5px;
+                  z-index: 0;
+                "
+                class="sfsi_plus_wicons shuffeldiv"
+              >
+                <div class="sfsiplus_inerCnt" style="z-index: 999">
+                  <a
+                    class="sficn"
+                    data-effect=""
+                    target="_blank"
+                    href="https://www.linkedin.com/company/codefactory-vienna"
+                    style="opacity: 1"
+                    ><img
+                      alt="LinkedIn"
+                      title="LinkedIn"
+                      src="https://codefactory.wien/wp-content/plugins/ultimate-social-media-plus/images/icons_theme/flat/flat_linkedin.png"
+                      width="35"
+                      height="35"
+                      style=""
+                      class="sfcm sfsi_wicon sfsiplusid_round_icon_linkedin"
+                      data-effect=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
       </section>
+
+      <!-- Here footer and bottom navbar -->
     </div>
 
-
-     
-
-
-
-          <!-- Here footer and bottom navbar -->
-        
-    </div>
-
-
- 
-
-    
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <!-- <script
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+    async
+  ></script> -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
