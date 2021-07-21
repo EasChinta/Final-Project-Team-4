@@ -30,12 +30,17 @@ for (let val of teachers){
     document.getElementsByClassName("teachers")[0].innerHTML +=`
     <div class="col col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
     <div class="container p-5">  
+    <a href="https://codefactory.wien/de/team-de/">
     <div class="card " style="width: 18rem;">
   <img src="${val.img} " class="card-img-top" alt="teachers">
+  <div class="overlay overlayblur">
+        <div class="overlay-description">See more about ${val.name}</div>
+      </div>
   <div class="card-body">
     <p class="card-text d-flex justify-content-center">${val.name} </p>
     <p class="card-text text-muted d-flex justify-content-center">${val.status} </p>
   </div>
 </div>
+</a>
 </div>`
 }

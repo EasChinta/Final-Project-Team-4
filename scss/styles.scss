@@ -95,7 +95,42 @@ footer {
     text-align: center;
 }
 
+//overlay of the teachers in aboutus
 
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.overlayblur{
+    backdrop-filter: blur(8px);
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.overlay-description{
+    font-size: 25pt;
+    text-align: center;
+    
+    
+}
+
+.header-title {
+    font-family: 'Work Sans', sans-serif;
+
+}
 
 
 // //Map// 
