@@ -41,9 +41,11 @@ var newsLinkPage = [
   `<div class="col-lg-4 col-md-6 col-sm-12 my-3 mb-3">
   <div class="card bg-transparent border-0" style="width: 18rem; height: 28rem;">
   <iframe width="290" height="215" src="${val.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <h5 class="card-title">${val.title}</h5>
+   <h5 class="card-title">${val.title}</h5>
     <p class="card-text">${val.cardText} <br></p>
+    <div>
     <a href="/news.html" class="btn btn-outline-success mybtn ">Read More</a>
+    </div>
   </div>
   </div>
   `

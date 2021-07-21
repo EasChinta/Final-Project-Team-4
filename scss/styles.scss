@@ -3,7 +3,7 @@
     padding: 0;
    
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: monospace !important;
 }
 
 body {
@@ -52,8 +52,8 @@ section {
 .one {
 
 }
-.two {
-
+.two h1 {
+    text-align: center;
 }
 
 .three h1 {
@@ -65,11 +65,25 @@ section {
 }
 
 .four h1 {
-
+    text-align: center;
 }
 
 .five h1 {
     text-align: center;
+}
+
+.newsPage p {
+    text-align: center;
+
+}
+
+.newsPage h1 {
+    text-align: center;
+}
+
+.pricing h1 {
+    text-align: center;
+
 }
 
 .mybtn {

@@ -234,7 +234,7 @@ for (let val of prices) {
                     <div class="card-body">
                         <h3 class="my-3 text-uppercase">${val.duration}</h3>
                         <span class="d-block text-primary">
-                            <span class="align-top">$</span>
+                            <span class="align-top">€</span>
                             <span class="display-4 font-weight-bold">${val.price}</span>
                         </span>
                         <ul class="list-unstyled mt-3 mb-4">
