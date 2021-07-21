@@ -6,6 +6,10 @@
   font-family: monospace !important;
 }
 
+p {
+  font-size: 15px;
+}
+
 body {
   background: #d8e2dc;
   background: -webkit-gradient(linear, left top, left bottom, from(#d8e2dc), to(#ffd7ba));
