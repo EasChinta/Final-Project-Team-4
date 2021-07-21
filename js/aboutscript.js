@@ -28,15 +28,19 @@ var teachers = [
     name: "Smilja Simikic",
     status: "Secretary",
     img: "../img/img-teach/Smilija.jpg",
+    details:
   }
 ];
-
+let i = 0;
 for (let val of teachers) {
   document.getElementsByClassName("teachers")[0].innerHTML += `
   <div class="col-md-4 mb-2">
   <div class="card h-100 bg-transparent border-0">
       <div class="card-body">
-    <a href="#">
+    <a href="#" data-toggle="modal" data-target="#exampleModalLong${i}">
+        
+        
+
   <img src="${val.img} " class="card-img-top" alt="teachers">
   <div class="overlay overlayblur">
         <div class="overlay-description">See more about ${val.name}</div>
@@ -50,5 +54,27 @@ for (let val of teachers) {
 </div>
 </div>
 </div>
-</div>`;
+</div>
+<!-- Modal -->
+        <div class="modal fade" id="exampleModalLong${i}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle${i}" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle${i}">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+               
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+`;
+i++;
 }
