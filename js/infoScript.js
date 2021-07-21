@@ -128,35 +128,47 @@ newsTxt += "</div>";
 document.getElementById("newsPage").innerHTML = newsTxt;
 
 //Fourth page Cards and info //
-
-var fourthPageCards = [
+var teachers = [
   {
-    title: "Martha",
-    cardText: "Trainer",
-    age: 29,
-    image: "./img/avatar2.png",
+    name: "Christoph Pirringer",
+    status: "Founder & CEO",
+    img: "../img/img-teach/Christoph.png",
   },
   {
-    title: "Nick",
-    cardText: "Trainer",
-    age: 31,
-    image: "./img/avatar.png",
+    name: "Lisa Duschek",
+    status: "Founder & CEO",
+    img: "../img/img-teach/Lisa.png",
   },
+  {
+    name: "Giath Serri",
+    status: "Trainer",
+    img: "../img/img-teach/Serri.png",
+  },
+  {
+    name: "Irati Larreina",
+    status: "Trainer",
+    img: "../img/img-teach/Irati.png",
+  },
+  {
+    name: "Acilio Carraro",
+    status: "Trainer",
+    img: "../img/img-teach/Acilio.png",
+  }
 ];
 
 var txt4 = " ";
 
 txt4 += `<div class="row justify-content-center">`;
 
-for (let val of fourthPageCards) {
+for (let val of teachers) {
   txt4 += `
   <div class="col-md-4 mb-2">
-  <div class="card bg-transparent">
-      <div class="card-body">
-  <img src="${val.image}" class="card-img-top" alt="...">
+  <div class="card h-100 bg-transparent border-0">
+      <div class="card-body h-100">
+  <img src="${val.img}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">${val.title}</h5>
-    <p class="card-text">${val.cardText} <br> ${val.age}</p>
+    <h5 class="card-title">${val.name}</h5>
+    <p class="card-text">${val.status}</p>
     <a href="#" class="btn btn-outline-success mybtn ">Read More</a>
   </div>
 </div>
