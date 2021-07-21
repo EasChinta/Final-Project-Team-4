@@ -110,7 +110,8 @@
         </div>
         <textarea name="" id="" cols="40" rows="10" class="text-muted "> Your Message...</textarea>
         <br>
-        <button type="submit" class="btn btn-primary" id="sendmess" onclick="submit()">Submit</button>
+        <button type="submit" class="btn btn-primary" id="sendmess" onclick="submitted()">Submit</button>
+        
         
         
       </form>
@@ -296,9 +297,9 @@
 
     
     <script>
-      function submit(){
-        document.getElementById("sendmess").innerHTML = "Thank you for your interest, we will contact you soon!";
-      }
+      function submitted(){
+    alert( "Thank you for your interest, we will contact you soon!");
+  }
     </script>
   </body>
 </html>
