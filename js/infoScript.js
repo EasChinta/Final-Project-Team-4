@@ -29,7 +29,7 @@ for (let val of secondPageCards) {
                 <div class="card-body">
                   <h5 class="card-title">${val.title}</h5>
                   <p class="card-text">${val.cardText}</p>
-                  <a href="#" class="btn btn-outline-success mybtn"
+                  <a href="/course.html" class="btn btn-outline-success mybtn"
                   >Read more</a
                 >
                 </div>
@@ -69,7 +69,8 @@ txt3 += '<div class="row">';
 for (let val of thirdPageCards) {
   txt3 += `
   <div class="col-md-4 mb-2">
-  <div class="card bg-transparent">
+  <div class="card bg-transparent h-100" style="background: rgb(216,226,220);
+  background: linear-gradient(90deg, rgba(216,226,220,1) 0%, rgba(245,181,135,1) 100%);">
       <div class="card-body">
     <div class="card-header">${val.title}</div>
     <div class="card-body text-success">
@@ -169,7 +170,7 @@ txt4 += `<div class="row justify-content-center">`;
 for (let val of teachers) {
   txt4 += `
   <div class="col-md-4 mb-2">
-  <div class="card bg-transparent h-100">
+  <div class="card bg-transparent border-0 h-100">
       <div class="card-body">
   <img src="${val.img}" class="card-img-top" alt="...">
   <div class="card-body">
@@ -228,7 +229,8 @@ var pricing = "";
 for (let val of prices) {
   pricing += `
   <div class="col-md-4 mb-2">
-                <div class="card h-100">
+                <div class="card h-100" style="background: rgb(216,226,220);
+                background: linear-gradient(90deg, rgba(216,226,220,1) 0%, rgba(245,181,135,1) 100%);">
                     <div class="card-body">
                         <h3 class="my-3 text-uppercase">${val.duration}</h3>
                         <span class="d-block text-primary">
@@ -243,10 +245,13 @@ for (let val of prices) {
                             <li>${val.atr5}</li>
                             <li>${val.atr6}</li>
                         </ul>
-                        <a href="https://codefactory.wien/de/home/" target="__blank"><button type="button" class="btn btn-lg btn-block btn-primary btn-circle">Select</button></a>
+                        <a href="https://codefactory.wien/de/home/" target="__blank"><button type="button" class="btn btn-lg btn-outline-success mybtn">Select</button></a>
                     </div>
                 </div>
             </div>
   `;
 }
 document.getElementById("pricing").innerHTML = pricing;
+
+
+

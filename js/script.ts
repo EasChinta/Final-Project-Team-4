@@ -5,7 +5,7 @@ class course{
   display() {
     return `
     <div class="col col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
-    <div class="card" style="width: 18rem; height: 25rem;">
+    <div class="card h-100 bg-transparent border-0" style="width: 18rem; height: 25rem;">
     <img src="${this.img} " class="card-img-top" alt="courses" style="width: 18rem; height: 15rem">
     <div class="card-body ">
       <h5 class="card-title d-flex justify-content-center">${this.name} </h5>
