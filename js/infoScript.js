@@ -170,7 +170,7 @@ txt4 += `<div class="row justify-content-center">`;
 for (let val of teachers) {
   txt4 += `
   <div class="col-md-4 mb-2">
-  <div class="card bg-transparent h-100">
+  <div class="card bg-transparent border-0 h-100">
       <div class="card-body">
   <img src="${val.img}" class="card-img-top" alt="...">
   <div class="card-body">
