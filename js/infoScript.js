@@ -173,34 +173,34 @@ document.getElementById("pageFour").innerHTML = txt4;
 
 var prices = [
   {
-    duration: "1 Month",
-    price: 800,
-    atr1: "Unlimited Bandwith",
-    atr2: "Encrypted Connection",
-    atr3: "No Traffic Logs",
-    atr4: "Works on all devices",
+    duration: "3 Months",
+    price: 4490,
+    atr1: "Full Stack Web Developer",
+    atr2: "FRONT-END",
+    atr3: "BACK-END",
+    atr4: "",
     atr5: "",
-    atr6: "",
+    atr6: ""
   },
   {
-    duration: "6 Month",
-    price: 750,
-    atr1: "Unlimited Bandwith",
-    atr2: "Encrypted Connection",
-    atr3: "No Traffic Logs",
-    atr4: "Works on all devices",
-    atr5: "Instant Setup",
-    atr6: "5GB of Storage",
+    duration: "3 Months",
+    price: 4490,
+    atr1: "Automatedd Software Tester",
+    atr2: "Be the nightmare of Web Developers",
+    atr3: "",
+    atr4: "",
+    atr5: "",
+    atr6: ""
   },
   {
-    duration: "1 Year",
-    price: 660,
-    atr1: "Unlimited Bandwith",
-    atr2: "Encrypted Connection",
-    atr3: "No Traffic Logs",
-    atr4: "Works on all devices",
-    atr5: "Instant Setup",
-    atr6: "50GB of Storage",
+    duration: "1 Month",
+    price: 450,
+    atr1: "Python Programming",
+    atr2: "Learn the most used programming language in the world",
+    atr3: "",
+    atr4: "",
+    atr5: "",
+    atr6: ""
   },
 ];
 
@@ -215,7 +215,6 @@ for (let val of prices) {
                         <span class="d-block text-primary">
                             <span class="align-top">$</span>
                             <span class="display-4 font-weight-bold">${val.price}</span>
-                            <span class="text-muted">/month</span>
                         </span>
                         <ul class="list-unstyled mt-3 mb-4">
                             <li>${val.atr1}</li>
