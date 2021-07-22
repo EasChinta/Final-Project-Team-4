@@ -15,6 +15,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="scss/animate.css">
@@ -23,7 +24,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="scss/styles.css" />
-    <title>Document</title>
+    <title>CodeFactory</title>
   </head>
   <body>
     <div class="myContainer">
@@ -32,11 +33,11 @@
       <section class="one">
         <header>
           <div>
-            <img class="my-3 mx-3"
+           <a href="#"> <img class="my-3 mx-3"
               src="/img/cropped-CodeFactory-LOGO-September-2020.png"
               alt=""
               id="logo"
-            />
+            /></a>
           </div>
             
           <div>
@@ -101,13 +102,27 @@
             </nav>
           </div>
         </header>
-        
 
-        <div class="container d-flex align-items-center my-3">
+        <!-- ANIMATION TITLE -->
+        <h1 id="welcome" class="animate__animated animate__rubberBand">
+          <span id="C" class="animate__animated animate__bounceInDown">C</span>
+          <span id="o" class="animate__animated animate__bounceInDown">o</span> 
+          <span id="d" class="animate__animated animate__bounceInDown">d</span>
+          <span id="e" class="animate__animated animate__bounceInDown">e</span><br>
+          <span id="f" class="animate__animated animate__bounceInDown">F</span>
+          <span id="a" class="animate__animated animate__bounceInDown">a</span>
+          <span id="c2" class="animate__animated animate__bounceInDown">c</span>
+          <span id="t" class="animate__animated animate__bounceInDown">t</span>
+          <span id="o2" class="animate__animated animate__bounceInDown">o</span>
+          <span id="r" class="animate__animated animate__bounceInDown">r</span>
+          <span id="y" class="animate__animated animate__bounceInDown">y</span>
+       </h1>
+       <!-- ANIMATION TITLE -->
+        <div class="container d-flex justify-content-center align-items-center my-3">
           <div class="row">
             <div
               class="card bg-transparent border-0 animate__animated animate__bounceInLeft"
-              style="width: 18rem; margin-top: 15vh"
+              style="width: 18rem; margin-top: 10vh"
             >
               <div class="card-body">
                 <h1 class="card-title">Become a job ready Web Developer</h1>
@@ -130,7 +145,7 @@
       <!-- Section two -->
       <div class="container">
         <section class="two">
-          <div class="card bg-transparent my-5 border-0">
+          <div class="card bg-transparent my-5 border-0 ">
             <h1>...</h1>
             <div class="card-body">
               <h1 class="my-5">
@@ -142,7 +157,7 @@
             </div>
           </div>
           <!-- Can you maybe make it that on the second card below, the image is on the right side of the card? -->
-          <div class="container row" id="pageTwo"></div>
+          <div class="container row animate__animated animate__backInLeft animate__delay-3s" id="pageTwo"></div>
         </section>
       </div>
 
@@ -155,7 +170,7 @@
           <p class="my-5" style="margin-bottom: 10vh !important;">
             We all have hopes, dreams, and plans for the future. Whether you’re looking for a new opportunity, want to optimize your current job, or are simply searching for a new hobby, coding can help you get closer to your goals. And remember, anyone can learn how to code!
           </p>
-          <div class="d-flex justify-content-center" id="pageThree"></div>
+          <div class="d-flex justify-content-center animate__animated animate__bounceIn animate__delay-5s" id="pageThree"></div>
         </div>
       </section>
 
